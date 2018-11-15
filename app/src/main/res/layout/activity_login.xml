@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#2f3068"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <EditText
+        android:id="@+id/login_mail_edit_txt"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="83dp"
+        android:drawableStart="@drawable/email"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:textColorHint="#2496bB" />
+
+    <EditText
+        android:id="@+id/login_pass_edit_txt"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/passwordicon"
+        android:gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+       android:textColor="#ffffff"
+        android:textColorHint="#2496bB"/>
+
+    <TextView
+        android:background="@drawable/forgotpass"
+        android:id="@+id/forgot_pass_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="10dp"
+         />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/user_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="26dp"
+
+        android:background="@drawable/rec"
+        android:text="Log In" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/neednew"
+        android:id="@+id/need_new_accnt_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/login_ur_phn_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/logurphn" />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/user_phn_button"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:background="@drawable/rec"
+        android:text="Log In" />
+
+
+
+
+
+
+
+</LinearLayout>

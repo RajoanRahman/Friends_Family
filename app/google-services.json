@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "779141808525",
+    "firebase_url": "https://friendsandfamily-ee874.firebaseio.com",
+    "project_id": "friendsandfamily-ee874",
+    "storage_bucket": "friendsandfamily-ee874.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779141808525:android:329056a70c2815d4",
+        "android_client_info": {
+          "package_name": "com.example.user.friendsandfamily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779141808525-rhuvk7teb33jlrire974dlkfokb75hjo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.friendsandfamily",
+            "certificate_hash": "4106edaa89d6c9c33af285d458bb7a10fb290fa9"
+          }
+        },
+        {
+          "client_id": "779141808525-6atk4j98he7i0j8stbmm3j6dbu7kifi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZED5RNkoTjQX-gArigT0LIeH4BD_5cVg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779141808525-6atk4j98he7i0j8stbmm3j6dbu7kifi3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

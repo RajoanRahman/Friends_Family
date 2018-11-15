@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#2f3068"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/reg_mail_edit_txt"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="83dp"
+        android:drawableStart="@drawable/email"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColorHint="#0AF3EB" />
+
+    <EditText
+        android:id="@+id/reg_pass_edit_txt"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/passwordicon"
+        android:gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="#0AF3EB"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/register_createAccount_button"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="26dp"
+
+        android:background="@drawable/rec"
+        android:text="Create an Accont" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/alreadayhavean"
+        android:id="@+id/reg_alreday_accnt_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>

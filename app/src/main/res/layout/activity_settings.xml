@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f3068"
+    tools:context=".SettingsActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/set_profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/profile_image"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <EditText
+        android:id="@+id/set_user_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/set_profile_image"
+        android:hint="User Name"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/edit_profile"
+        android:textAlignment="center"
+        android:textColor="#0AF3EB"
+        />
+
+    <EditText
+        android:id="@+id/set_user_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/set_user_Name"
+        android:hint="hey I'm in Online "
+        android:textColorHint="#0AF3EB"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/edit_status"
+        android:textAlignment="center"
+        android:textColor="#0AF3EB"
+        />
+
+    <Button
+        android:id="@+id/set_user_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/set_user_status"
+        android:text="Update"
+        android:textColorHint="#0AF3EB"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rec"
+        android:textAlignment="center"
+        android:textColor="#0AF3EB"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
